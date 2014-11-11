@@ -2,7 +2,7 @@ function startVirtualHub() {
   var sys = require('sys')
   var exec = require('child_process').exec;
   function puts(error, stdout, stderr) { sys.puts(stdout);console.log(stdout); }
-  exec("VirtualHub &", puts);
+  exec("./VirtualHub.osx.17849/VirtualHub &", puts);
 }
 
 
