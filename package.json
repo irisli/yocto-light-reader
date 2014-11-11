@@ -1,0 +1,9 @@
+{
+  "name": "yocto-light",
+  "description": "A simple stupid yocto light readout",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "request": "2.x"
+  }
+}
